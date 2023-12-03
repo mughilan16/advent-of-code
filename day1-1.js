@@ -9,7 +9,6 @@ const first_digits = input.map((line) => find_first(line));
 const last_digits = input.map((line) => find_last(line));
 let sum = 0;
 
-
 console.log(first_digits, last_digits)
 for (let i = 0; i < input.length; i++) {
   sum += parseInt(first_digits[i] + last_digits[i]);
